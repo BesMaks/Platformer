@@ -11,6 +11,9 @@ public class Player : MonoBehaviour
     [SerializeField] float climbSpeed = 5f;
     [SerializeField] Vector2 deathKick = new Vector2(1f, 10f);
 
+    [SerializeField] float deathSlowDuration = 2f;
+    [SerializeField] float deathSlowness = 0.3f;
+
     Rigidbody2D myRigidbody;
     Animator myAnimator;
     BoxCollider2D myBodyCollider2D;
@@ -94,9 +97,18 @@ public class Player : MonoBehaviour
         {
             isAlive = false;
             myAnimator.SetTrigger("Dying");
+
+            IEnumerator death() {
+                Time.timeScale = deathSlowness;
+                yield return new WaitForSecondsRealtime(deathSlowDuration);
+                Time.timeScale = 1f;
+            }
+            StartCoroutine(death());
+
             GetComponent<Rigidbody2D>().velocity = deathKick;
             myFeetCollider2D.size = new Vector2(myFeetCollider2D.size.x, myFeetCollider2D.size.y * 0.7f);
             //transform.localPosition = new Vector2(transform.localPosition.x, transform.localPosition.y - 1f);
         }
     }
+
 }
