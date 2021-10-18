@@ -15,11 +15,11 @@ D:/UnityEngine/Platformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59406
+56676
 Successfully changed project path to: D:/UnityEngine/Platformer
 D:/UnityEngine/Platformer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 97.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 146.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path D:/UnityEngine/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'D:/UnityEngine/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityEngine/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/UnityEngine/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityEngine/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002392 seconds.
+Registered in 0.002191 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 126.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.574 seconds
+- Completed reload, in  2.187 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1575ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (2188ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (755ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (1082ms)
+			LoadAssemblies (148ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
+			SetupTypeCache (425ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (298ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (415ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (126ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003867 seconds.
+Registered in 0.008707 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 102.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.275 seconds
+- Completed reload, in  2.722 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2277ms)
-		BeginReloadAssembly (228ms)
+	ReloadAssembly (2724ms)
+		BeginReloadAssembly (318ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1936ms)
-			LoadAssemblies (156ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (2244ms)
+			LoadAssemblies (203ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (647ms)
+			SetupTypeCache (705ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (749ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (962ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (103ms)
-				BeforeProcessingInitializeOnLoad (184ms)
-				ProcessInitializeOnLoadAttributes (421ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (218ms)
+				ProcessInitializeOnLoadAttributes (586ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 111.1 MB.
 System memory in use after: 110.9 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2838.
-Total: 5.891500 ms (FindLiveObjects: 0.518200 ms CreateObjectMapping: 0.145800 ms MarkObjects: 4.850600 ms  DeleteObjects: 0.373800 ms)
+Total: 10.718900 ms (FindLiveObjects: 0.543100 ms CreateObjectMapping: 0.194000 ms MarkObjects: 9.133300 ms  DeleteObjects: 0.844300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,81 +132,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Levels/Main menu 1.unity
-  artifactKey: Guid(d4b523b861dce1b43a5fdff3acd56ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/Main menu 1.unity using Guid(d4b523b861dce1b43a5fdff3acd56ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe841f7b6895f2808f487368063641d') in 0.024225 seconds 
-  Import took 0.031999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037787 seconds.
-  path: Assets/Levels/Main menu.unity
-  artifactKey: Guid(92872624792abad4b98ef0d7a541532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/Main menu.unity using Guid(92872624792abad4b98ef0d7a541532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64abfb0a7df956d248ad864ac9c3603') in 0.005930 seconds 
-  Import took 0.013598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.072993 seconds.
   path: Assets/Levels/Level 3.unity
   artifactKey: Guid(d4b523b861dce1b43a5fdff3acd56ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/Level 3.unity using Guid(d4b523b861dce1b43a5fdff3acd56ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603969ed432ac81f8d8bece4609889d9') in 0.003590 seconds 
-  Import took 0.012348 seconds .
+Start importing Assets/Levels/Level 3.unity using Guid(d4b523b861dce1b43a5fdff3acd56ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fbcb563677a37ffa65ca76cacb118a') in 0.043774 seconds 
+  Import took 0.053512 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007326 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.172 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2173ms)
-		BeginReloadAssembly (280ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (86ms)
-		EndReloadAssembly (1749ms)
-			LoadAssemblies (238ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (759ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (551ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (162ms)
-				ProcessInitializeOnLoadAttributes (366ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.3 MB.
-System memory in use after: 108.2 MB.
+Received Import Request.
+  Time since last request: 5.320762 seconds.
+  path: Assets/Levels/Level 2.unity
+  artifactKey: Guid(d4b523b861dce1b43a5fdff3acd56ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/Level 2.unity using Guid(d4b523b861dce1b43a5fdff3acd56ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a34536f75aa0325bd7f042b8469a76') in 0.005551 seconds 
+  Import took 0.013876 seconds .
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2841.
-Total: 9.429600 ms (FindLiveObjects: 0.520300 ms CreateObjectMapping: 0.159500 ms MarkObjects: 8.031200 ms  DeleteObjects: 0.715300 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 2.514830 seconds.
+  path: Assets/Levels/Level 2.unity
+  artifactKey: Guid(d4b523b861dce1b43a5fdff3acd56ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/Level 2.unity using Guid(d4b523b861dce1b43a5fdff3acd56ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6069721a028c5ee9fa34659d23fdd3c4') in 0.005620 seconds 
+  Import took 0.016693 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 93.283338 seconds.
+  path: Packages/com.unity.2d.tilemap/package.json
+  artifactKey: Guid(51797d68d3132bb419217a229e09fc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/package.json using Guid(51797d68d3132bb419217a229e09fc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d5ca585f1178ab6b402fa35b528bc9') in 0.069267 seconds 
+  Import took 0.076968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.717621 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor
+  artifactKey: Guid(6b38a6882b80b1c4dbcca4bc844d7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor using Guid(6b38a6882b80b1c4dbcca4bc844d7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f7d0adf02981b474c0996a5087621e') in 0.005132 seconds 
+  Import took 0.013208 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
