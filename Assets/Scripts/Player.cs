@@ -98,16 +98,18 @@ public class Player : MonoBehaviour
             isAlive = false;
             myAnimator.SetTrigger("Dying");
 
+            // Slowmo death
             IEnumerator death() {
                 Time.timeScale = deathSlowness;
                 yield return new WaitForSecondsRealtime(deathSlowDuration);
                 Time.timeScale = 1f;
             }
-            StartCoroutine(death());
 
             GetComponent<Rigidbody2D>().velocity = deathKick;
             myFeetCollider2D.size = new Vector2(myFeetCollider2D.size.x, myFeetCollider2D.size.y * 0.7f);
-            //transform.localPosition = new Vector2(transform.localPosition.x, transform.localPosition.y - 1f);
+
+            FindObjectOfType<GameSession>().processPlayerDeath();
+            StartCoroutine(death());
         }
     }
 
